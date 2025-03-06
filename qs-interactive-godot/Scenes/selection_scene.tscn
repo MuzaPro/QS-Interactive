@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://co62pphyr7qb3"]
+[gd_scene load_steps=5 format=3 uid="uid://co62pphyr7qb3"]
 
 [ext_resource type="Texture2D" uid="uid://x1uu3kf4qyy8" path="res://Scenes/01_Main menu/QS-int-exp_Computer_Dive00090696.webp" id="1_jeeku"]
+[ext_resource type="Script" path="res://Scenes/selection_scene.gd" id="1_xvy4c"]
 [ext_resource type="Texture2D" uid="uid://dwdofatdnx6jj" path="res://Assets/UI-Icons/Close.svg" id="2_2ntdc"]
 [ext_resource type="Texture2D" uid="uid://bk0xxov3xo12x" path="res://Assets/UI-Icons/Inspect.svg" id="2_g5re7"]
 
@@ -11,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_xvy4c")
 
 [node name="MainBG" type="Control" parent="."]
 anchors_preset = 0
@@ -40,7 +42,10 @@ layout_mode = 2
 text = "Exit"
 icon = ExtResource("2_2ntdc")
 
-[node name="Button" type="Button" parent="UI/VBoxContainer"]
+[node name="ExploreComputer" type="Button" parent="UI/VBoxContainer"]
 layout_mode = 2
 text = "Explore Quantum Computer"
 icon = ExtResource("2_g5re7")
+
+[connection signal="pressed" from="UI/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="UI/VBoxContainer/ExploreComputer" to="." method="_on_explore_computer_pressed"]
