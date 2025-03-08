@@ -1,17 +1,192 @@
-[gd_scene load_steps=11 format=3 uid="uid://br8wb8x5du078"]
+[gd_scene load_steps=56 format=3 uid="uid://br8wb8x5du078"]
 
 [ext_resource type="Script" path="res://Scenes/ultimate_scene.gd" id="1_cdqgm"]
 [ext_resource type="SpriteFrames" uid="uid://dkrlkg851i0vs" path="res://Scenes/02_Computer_Dive/computer_dive.tres" id="1_qg1or"]
 [ext_resource type="SpriteFrames" uid="uid://de28chlpuf323" path="res://Scenes/03_Vacuum_Dive/VacuumDiveSeq.tres" id="2_fi3m1"]
+[ext_resource type="Texture2D" uid="uid://bddbrmaabeq74" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091988.webp" id="2_q4l4i"]
+[ext_resource type="Texture2D" uid="uid://bk2chbm1xxjv7" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091989.webp" id="3_6t5tp"]
 [ext_resource type="SpriteFrames" uid="uid://ds665fnka2gnm" path="res://Scenes/03_Vacuum_Dive/ChipToHomeSeq.tres" id="3_v6xav"]
 [ext_resource type="Texture2D" uid="uid://dwdofatdnx6jj" path="res://Assets/UI-Icons/Close.svg" id="4_8hs1f"]
+[ext_resource type="Texture2D" uid="uid://cfo6jcurvebpw" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091990.webp" id="4_ecw2a"]
+[ext_resource type="Texture2D" uid="uid://dpsuvcnx468wh" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091991.webp" id="5_o3mcp"]
 [ext_resource type="Texture2D" uid="uid://cy8citvvou10q" path="res://Assets/UI-Icons/Menu.svg" id="5_u5mxl"]
 [ext_resource type="Texture2D" uid="uid://cbw4o25yr7ve8" path="res://Assets/UI-Icons/Home.svg" id="6_0ym2l"]
+[ext_resource type="Texture2D" uid="uid://dyi8cp7ltkvbx" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091992.webp" id="6_tatc6"]
+[ext_resource type="Texture2D" uid="uid://bu4uhrpcylgk4" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091993.webp" id="7_6bm6j"]
 [ext_resource type="Texture2D" uid="uid://bk0xxov3xo12x" path="res://Assets/UI-Icons/Inspect.svg" id="7_rhhtt"]
+[ext_resource type="Texture2D" uid="uid://bldib3qfd0tmb" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091994.webp" id="8_pnxfr"]
 [ext_resource type="Texture2D" uid="uid://2vcrydf1xlow" path="res://Assets/UI-Icons/frame-inspect.svg" id="9_ag4t6"]
+[ext_resource type="Texture2D" uid="uid://d2rx46xjnhues" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091995.webp" id="9_qmt27"]
+[ext_resource type="Texture2D" uid="uid://0jklxgqq4gcp" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091996.webp" id="10_falnt"]
 [ext_resource type="Texture2D" uid="uid://bh853obuqxhvt" path="res://Assets/UI-Icons/Arrow_back.svg" id="10_tfrh8"]
+[ext_resource type="Texture2D" uid="uid://c0ym4q1ycfpbp" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091997.webp" id="11_d4xnm"]
+[ext_resource type="AudioStream" uid="uid://dborkck68ftb2" path="res://Sound/SFX/KEDR Audio - Computer Sounds - Interface Squeak Blip Button Choosing Electronic.wav" id="11_y2qrj"]
+[ext_resource type="Texture2D" uid="uid://dtgi8p4np7i78" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091998.webp" id="12_el6fn"]
+[ext_resource type="AudioStream" uid="uid://54jpa4ylja4d" path="res://Sound/Soundtrack/Yarin Primak - Still Need Syndrome.mp3" id="12_gbjgu"]
+[ext_resource type="Texture2D" uid="uid://sbne3ug7qhua" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00091999.webp" id="13_rplhr"]
+[ext_resource type="Texture2D" uid="uid://coxecadhhoft4" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092000.webp" id="14_7r0pn"]
+[ext_resource type="Texture2D" uid="uid://vinh5mc502k4" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092001.webp" id="15_svhjo"]
+[ext_resource type="Texture2D" uid="uid://cb2d8bpvnf02" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092002.webp" id="16_wt8jv"]
+[ext_resource type="Texture2D" uid="uid://hh5nukvobv72" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092003.webp" id="17_s7n8k"]
+[ext_resource type="Texture2D" uid="uid://b4fdlfsa5ykph" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092004.webp" id="18_jmnbs"]
+[ext_resource type="Texture2D" uid="uid://bvwculrsr8cwo" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092005.webp" id="19_6bwrv"]
+[ext_resource type="Texture2D" uid="uid://dvrq2mvgqchll" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092006.webp" id="20_idrox"]
+[ext_resource type="Texture2D" uid="uid://bw6ec76qwkus8" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092007.webp" id="21_x3oky"]
+[ext_resource type="Texture2D" uid="uid://dfwel5swlhppp" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092008.webp" id="22_s4rrx"]
+[ext_resource type="Texture2D" uid="uid://cegm7qsjkejsp" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092009.webp" id="23_be6q2"]
+[ext_resource type="Texture2D" uid="uid://di52u7fbkbs0" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092010.webp" id="24_wqsiv"]
+[ext_resource type="Texture2D" uid="uid://ds5wf6vro6ium" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092011.webp" id="25_w3b08"]
+[ext_resource type="Texture2D" uid="uid://dvf1ux2ppwaye" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092012.webp" id="26_yweiy"]
+[ext_resource type="Texture2D" uid="uid://bhursw10w2yh8" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092013.webp" id="27_1cn0c"]
+[ext_resource type="Texture2D" uid="uid://tm52gm7p7wwg" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092014.webp" id="28_lsksf"]
+[ext_resource type="Texture2D" uid="uid://csb60fff1blw6" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092015.webp" id="29_y5x68"]
+[ext_resource type="Texture2D" uid="uid://drh20hkiahal7" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092016.webp" id="30_dr42v"]
+[ext_resource type="Texture2D" uid="uid://0e3wbxl4qqml" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092017.webp" id="31_xqca7"]
+[ext_resource type="Texture2D" uid="uid://bt3jtcdd4jeih" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092018.webp" id="32_2usgl"]
+[ext_resource type="Texture2D" uid="uid://dr72m1bcpwpkx" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092019.webp" id="33_lkgjq"]
+[ext_resource type="Texture2D" uid="uid://dqoxpfcauolnn" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092020.webp" id="34_6wveo"]
+[ext_resource type="Texture2D" uid="uid://c4l4k8eoqf4xv" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092021.webp" id="35_mb74k"]
+[ext_resource type="Texture2D" uid="uid://blyg26c76m35w" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092022.webp" id="36_11iad"]
+[ext_resource type="Texture2D" uid="uid://bdtfs2rcrrrv" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092023.webp" id="37_swqgq"]
+[ext_resource type="Texture2D" uid="uid://cmo3xifpe7wqj" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092024.webp" id="38_f5a83"]
+[ext_resource type="Texture2D" uid="uid://snkccuwcshao" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092025.webp" id="39_xhfay"]
+[ext_resource type="Texture2D" uid="uid://briufo0sdcw3o" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092026.webp" id="40_bxxvh"]
+[ext_resource type="Texture2D" uid="uid://byhjxl5p6784b" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092027.webp" id="41_gayji"]
+[ext_resource type="Texture2D" uid="uid://dgawpvuh72jiw" path="res://Scenes/04_Jump_to_laptop/jump-to-laptop00092028.webp" id="42_7ss4m"]
+[ext_resource type="Texture2D" uid="uid://yidtr42ol33r" path="res://Assets/UI-Icons/read.svg" id="52_0rlw3"]
 
-[node name="UltimateScene" type="Control" node_paths=PackedStringArray("Main_to_comp_seq", "Comp_to_chip_seq", "Chipt_to_main_seq", "Home_Button", "ExploreComputer_Button", "Chip_Button", "HomeFromChip_Button", "ReturnToComp_Button")]
+[sub_resource type="SpriteFrames" id="SpriteFrames_dr4et"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_q4l4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6t5tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ecw2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_o3mcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_tatc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_6bm6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_pnxfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qmt27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_falnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_d4xnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_el6fn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_rplhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_7r0pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_svhjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wt8jv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_s7n8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_jmnbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6bwrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_idrox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_x3oky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_s4rrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_be6q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wqsiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_w3b08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_yweiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1cn0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_lsksf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_y5x68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_dr42v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_xqca7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_2usgl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_lkgjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_6wveo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_mb74k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_11iad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_swqgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_f5a83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_xhfay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_bxxvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_gayji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_7ss4m")
+}],
+"loop": false,
+"name": &"default",
+"speed": 25.0
+}]
+
+[node name="UltimateScene" type="Control" node_paths=PackedStringArray("Main_to_comp_seq", "Comp_to_chip_seq", "Chip_to_main_seq", "Jump_to_laptop_seq", "Home_Button", "ExploreComputer_Button", "Chip_Button", "HomeFromChip_Button", "ReturnToComp_Button", "JumpToLaptop_Button", "ReturnFromLaptop_Button", "button_sound")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -21,12 +196,25 @@ grow_vertical = 2
 script = ExtResource("1_cdqgm")
 Main_to_comp_seq = NodePath("DiveToComp/MainToCompAnimation")
 Comp_to_chip_seq = NodePath("CompToChip/AnimatedSprite2D")
-Chipt_to_main_seq = NodePath("ChipToMain/AnimatedSprite2D")
+Chip_to_main_seq = NodePath("ChipToMain/AnimatedSprite2D")
+Jump_to_laptop_seq = NodePath("JumpToLaptop/JumpToLaptopSeq")
 Home_Button = NodePath("UI/TextureRect/VBoxContainer/HomeButton")
 ExploreComputer_Button = NodePath("UI/TextureRect/VBoxContainer/ExploreComputer")
 Chip_Button = NodePath("UI/TextureRect/VBoxContainer/ChipButton")
 HomeFromChip_Button = NodePath("UI/TextureRect/VBoxContainer/HomeFromChip")
 ReturnToComp_Button = NodePath("UI/TextureRect/VBoxContainer/ReturnToComp")
+JumpToLaptop_Button = NodePath("UI/TextureRect/VBoxContainer/JumptToLaptop")
+ReturnFromLaptop_Button = NodePath("UI/TextureRect/VBoxContainer/ReturnFromLaptop")
+button_sound = NodePath("UI/ButtonSound")
+
+[node name="JumpToLaptop" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="JumpToLaptopSeq" type="AnimatedSprite2D" parent="JumpToLaptop"]
+position = Vector2(960, 540)
+sprite_frames = SubResource("SpriteFrames_dr4et")
 
 [node name="DiveToComp" type="Control" parent="."]
 anchors_preset = 0
@@ -110,6 +298,23 @@ layout_mode = 2
 text = "Return"
 icon = ExtResource("10_tfrh8")
 
+[node name="JumptToLaptop" type="Button" parent="UI/TextureRect/VBoxContainer"]
+layout_mode = 2
+text = "Explore Photonics"
+icon = ExtResource("52_0rlw3")
+
+[node name="ReturnFromLaptop" type="Button" parent="UI/TextureRect/VBoxContainer"]
+layout_mode = 2
+text = "Return"
+icon = ExtResource("6_0ym2l")
+
+[node name="ButtonSound" type="AudioStreamPlayer2D" parent="UI"]
+stream = ExtResource("11_y2qrj")
+
+[node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_gbjgu")
+volume_db = -10.23
+
 [connection signal="pressed" from="UI/TextureRect/VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
 [connection signal="pressed" from="UI/TextureRect/VBoxContainer/MenuButton" to="." method="_on_menu_button_pressed"]
 [connection signal="pressed" from="UI/TextureRect/VBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
@@ -117,3 +322,5 @@ icon = ExtResource("10_tfrh8")
 [connection signal="pressed" from="UI/TextureRect/VBoxContainer/ExploreComputer" to="." method="_on_explore_computer_pressed"]
 [connection signal="pressed" from="UI/TextureRect/VBoxContainer/ChipButton" to="." method="_on_chip_button_pressed"]
 [connection signal="pressed" from="UI/TextureRect/VBoxContainer/ReturnToComp" to="." method="_on_return_to_comp_pressed"]
+[connection signal="pressed" from="UI/TextureRect/VBoxContainer/JumptToLaptop" to="." method="_on_jumpt_to_laptop_pressed"]
+[connection signal="pressed" from="UI/TextureRect/VBoxContainer/ReturnFromLaptop" to="." method="_on_return_from_laptop_pressed"]
