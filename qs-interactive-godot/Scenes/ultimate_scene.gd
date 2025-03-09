@@ -6,6 +6,7 @@ extends Control
 @export var Comp_to_chip_seq: AnimatedSprite2D
 @export var Chip_to_main_seq: AnimatedSprite2D
 @export var Jump_to_laptop_seq: AnimatedSprite2D
+@export var FULL_chip_seq: AnimatedSprite2D
 
 # ========== Introducing BUTTIONS to the script ==========
 @export var Home_Button: Button
@@ -15,6 +16,7 @@ extends Control
 @export var ReturnToComp_Button: Button
 @export var JumpToLaptop_Button: Button
 @export var ReturnFromLaptop_Button: Button
+@export var ExploreChipMirco_Button: Button
 
 @export var button_sound: AudioStreamPlayer2D
 
@@ -25,6 +27,8 @@ func _ready():
 	Chip_Button.hide()
 	ReturnToComp_Button.hide()
 	ReturnFromLaptop_Button.hide()
+	FULL_chip_seq.hide()
+	ExploreChipMirco_Button.hide()
 	
 	# Hide Sprites
 	Comp_to_chip_seq.hide()
@@ -80,6 +84,7 @@ func _on_chip_button_pressed():
 	HomeFromChip_Button.show()
 	ReturnToComp_Button.show()
 	ExploreComputer_Button.hide()
+	ExploreChipMirco_Button.show()
 
 
 func _on_exit_button_pressed():
@@ -89,7 +94,8 @@ func _on_exit_button_pressed():
 func _on_return_to_comp_pressed() -> void:
 	# Hide return button
 	ReturnToComp_Button.hide()
-	
+	ExploreChipMirco_Button.hide()
+	FULL_chip_seq.hide()
 	# Set to last frame of comp-to-chip animation
 	Comp_to_chip_seq.frame = Comp_to_chip_seq.sprite_frames.get_frame_count(Comp_to_chip_seq.animation) - 1
 	
@@ -118,10 +124,11 @@ func _on_HomeFromChip_button_pressed() -> void:
 	# Hide the return buttons
 	ReturnToComp_Button.hide()
 	HomeFromChip_Button.hide()
+	ExploreChipMirco_Button.hide()
 	
 	# Hide current animation
 	Comp_to_chip_seq.hide()
-	
+	FULL_chip_seq.hide()
 	# Show and play the chip-to-main animation
 	Chip_to_main_seq.show()
 	Chip_to_main_seq.play()
@@ -131,6 +138,7 @@ func _on_HomeFromChip_button_pressed() -> void:
 	
 	# Hide this animation
 	Chip_to_main_seq.hide()
+	
 	
 	# Set main-to-comp animation to first frame and show it
 	Main_to_comp_seq.frame = 0
@@ -188,3 +196,8 @@ func connect_sound_to_buttons(node):
 		if child is Button:
 			child.pressed.connect(play_button_sound)
 		connect_sound_to_buttons(child)
+
+
+func _on_explore_chip_mirco_pressed() -> void:
+	FULL_chip_seq.show()
+	FULL_chip_seq.play()
